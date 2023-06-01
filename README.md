@@ -3,5 +3,5 @@
 Sempre atualizando o projeto para que o codigo fica mais sematinco e bonito de se ver.🤞</p>
 <br>
 <br>
-<p>Primeira Vesão do Projetos</p>
+<p>Primeira Vesão do Projeto</p>
 <img src="imagem_2023-06-01_134317698.png" alt="Calculadora">
