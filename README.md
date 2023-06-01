@@ -4,4 +4,4 @@ Sempre atualizando o projeto para que o codigo fica mais sematinco e bonito de s
 <br>
 <br>
 <p>Primeira Vesão do Projeto</p>
-<img src="imagem_2023-06-01_134317698.png" alt="Calculadora" height="400px" width="400px">
+<img src="imagem_2023-06-01_134317698.png" alt="Calculadora" height="400px" width="300px">
