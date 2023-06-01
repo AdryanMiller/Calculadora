@@ -20,6 +20,10 @@ body {
     
 
 }
+.calculadora:hover
+{
+    box-shadow: 1px 1px 15px #5f8488;
+}
 .botao {
     position: absolute;
     top: 0%;
@@ -92,14 +96,30 @@ body {
 #op4 {
     position: absolute;
     top: 73%;
-    left: 75%;
+    left: 74%;
     margin-left: 15px;
+}
+
+#op5
+{
+    position: absolute;
+    top: 37%;
+    left: 76.5%;
+    margin-left: 15px 0 0 15px;
+}
+
+#op6
+{
+    position: absolute;
+    top: 37%;
+    left: 52.5%;
+    margin-left: 15px 0 0 15px;
 }
 
 #pri
 {
     position: absolute;
-    top: 46%;
+    top: 61%;
     left: 0;
     margin-left: 15px;
 }
@@ -107,26 +127,78 @@ body {
 #segun
 {
     position: absolute;
-    top: 46%;
-    left: 35%;
+    top: 61%;
+    left: 25%;
     margin-left: 15px;
 }
 
 #ter
 {
     position: absolute;
-    top: 4%;
-    left: 71.5%;
+    top: 61%;
+    left: 52.5%;
     margin-left: 15px 0 0 15px;
 }
 
 #quar
 {
-
+    position: absolute;
+    top: 61%;
+    left: 76.5%;
+    margin-left: 15px 0 0 15px;
 }
 
 #qui
 {
+    position: absolute;
+    top: 49%;
+    left: 0;
+    margin-left: 15px;
 
 }
 
+#sex
+{
+    position: absolute;
+    top: 49%;
+    left: 25%;
+    margin-left: 15px;
+    
+}
+
+
+#se
+{
+    position: absolute;
+    top: 49%;
+    left: 52.5%;
+    margin-left: 15px 0 0 15px;
+}
+
+
+#oi
+{
+    position: absolute;
+    top: 49%;
+    left: 76.5%;
+    margin-left: 15px 0 0 15px;
+    
+}
+
+
+#no
+{
+    position: absolute;
+    top: 37%;
+    left: 0;
+    margin-left: 15px;
+}
+
+#ze
+{
+    position: absolute;
+    top: 37%;
+    left: 25%;
+    margin-left: 15px;
+    
+}
