@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0%;
+
+}
+
+body {
+    background-color: rgb(1, 1, 12);
+}
+
+.calculadora
+{
+    position: absolute;
+    background-color: #587B7F;
+    height: 80%;
+    width: 40%;
+    top: 11%;   
+    left: 31%;
+    border-radius: 30px;
+    
+
+}
+.calculadora:hover
+{
+    box-shadow: 1px 1px 15px #5f8488;
+}
+.botao {
+    position: absolute;
+    top: 0%;
+    margin: auto;
+    padding: 20px 55px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    background-color: brown;
+
+}
+
+.botao:hover {
+    transition: 0.5s;
+    color: aliceblue;
+    box-shadow: 2px 2px 15px rgb(204, 54, 54);
+    transform: translateY(-3px);
+
+
+}
+
+#campo
+{   
+    position: absolute;
+    left: 4%;
+    margin: 20px;
+    height: 180px;
+    width: 85%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    box-shadow: 1px 1px 1px #FEFADC;
+    background-color: #FEFADC;
+    font-size: 50px;
+    padding-left: 10px;
+}
+
+#espe
+{
+    position: absolute;
+    top: 85%;
+    left: 5%;
+    width: 90%;
+    margin-left: 10px, 20px, 50px, 40px ;
+}
+#op1
+{
+    position: absolute;
+    top: 73%;
+    left: 0;
+    margin-left: 15px;
+}
+
+#op2 {
+    position: absolute;
+    top: 73%;
+    left: 25%;
+    margin-left: 15px;
+}
+
+#op3 {
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    margin-left: 15px;
+}
+
+#op4 {
+    position: absolute;
+    top: 73%;
+    left: 74%;
+    margin-left: 15px;
+}
+
+#op5
+{
+    position: absolute;
+    top: 37%;
+    left: 76.5%;
+    margin-left: 15px 0 0 15px;
+}
+
+#op6
+{
+    position: absolute;
+    top: 37%;
+    left: 52.5%;
+    margin-left: 15px 0 0 15px;
+}
+
+#pri
+{
+    position: absolute;
+    top: 61%;
+    left: 0;
+    margin-left: 15px;
+}
+
+#segun
+{
+    position: absolute;
+    top: 61%;
+    left: 25%;
+    margin-left: 15px;
+}
+
+#ter
+{
+    position: absolute;
+    top: 61%;
+    left: 52.5%;
+    margin-left: 15px 0 0 15px;
+}
+
+#quar
+{
+    position: absolute;
+    top: 61%;
+    left: 76.5%;
+    margin-left: 15px 0 0 15px;
+}
+
+#qui
+{
+    position: absolute;
+    top: 49%;
+    left: 0;
+    margin-left: 15px;
+
+}
+
+#sex
+{
+    position: absolute;
+    top: 49%;
+    left: 25%;
+    margin-left: 15px;
+    
+}
+
+
+#se
+{
+    position: absolute;
+    top: 49%;
+    left: 52.5%;
+    margin-left: 15px 0 0 15px;
+}
+
+
+#oi
+{
+    position: absolute;
+    top: 49%;
+    left: 76.5%;
+    margin-left: 15px 0 0 15px;
+    
+}
+
+
+#no
+{
+    position: absolute;
+    top: 37%;
+    left: 0;
+    margin-left: 15px;
+}
+
+#ze
+{
+    position: absolute;
+    top: 37%;
+    left: 25%;
+    margin-left: 15px;
+    
+}
