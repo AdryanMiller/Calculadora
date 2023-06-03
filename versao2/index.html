@@ -11,37 +11,37 @@
 <body>
     <div class="campo">
         <div class="calculadora">
-            <input type="text" placeholder="0">
+            <input id="campo" type="text" placeholder="0">
         </div>
         <div>
-            <button class="op1" value="AC"  onclick="campoAdd()">AC</button>
-            <button class="op1">C</button>
+            <button class="op1" value="AC"  onclick="limpar('')">DEL</button>
+            <button class="op1" value="C" onclick="limpar('')">C</button>
             <button class="op1" value="%" onclick="campoAdd('%')">%</button>
             <button class="op1" value="/"  onclick="campoAdd('/')">/</button>
         </div>
         <div>
-            <button>7</button value="7"  onclick="campoAdd('7')">
-            <button>8</button value="8"  onclick="campoAdd('8')">
-            <button>9</button value="9" onclick="campoAdd('9')">
+            <button value="7" onclick="campoAdd('7')">7</button>
+            <button value="8" onclick="campoAdd('8')">8</button>
+            <button value="9" onclick="campoAdd('9')">9</button>
             <button class="op1" value="*" onclick="campoAdd('*')">*</button>
         </div>
         <div>
-            <button>4</button value="4" onclick="campoAdd('4')">
-            <button>5</button value="5" onclick="campoAdd('5')">
-            <button>6</button value="6" onclick="campoAdd('6')">
+            <button value="4" onclick="campoAdd('4')">4</button>
+            <button value="5" onclick="campoAdd('5')">5</button>
+            <button value="6" onclick="campoAdd('6')">6</button>
             <button class="op1" value="-" onclick="campoAdd('-')">-</button>
         </div>
         <div>
-            <button>1</button value="1" onclick="campoAdd('1')">
-            <button>2</button value="2" onclick="campoAdd('2')">
-            <button>3</button value="3" onclick="campoAdd('3')">
+            <button value="1" onclick="campoAdd('1')">1</button>
+            <button value="2" onclick="campoAdd('2')">2</button>
+            <button value="3" onclick="campoAdd('3')">3</button>
             <button class="op1" value="+" onclick="campoAdd('+')">+</button>
         </div>
         <div>
-            <button>00</button value="00" onclick="campoAdd('00')">
-            <button>0</button value="0" onclick="campoAdd('0')">
+            <button value="00" onclick="campoAdd('00')">00</button>
+            <button value="0" onclick="campoAdd('0')">0</button>
             <button class="op1" value="." onclick="campoAdd('.')">.</button>
-            <button class="op1" value="=" onclick="campoAdd()">=</button>
+            <button class="op1" id="igualy" value="=" onclick="calcular()">=</button>
         </div>
     </div>
     <script src="js.js"></script>
