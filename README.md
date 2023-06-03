@@ -8,4 +8,4 @@ Sempre atualizando o projeto para que o codigo fica mais sematinco e bonito de s
 <br>
 <br>
 <p>Segunda Vesão do Projeto</p>
-<img src="Calculadora2.png" alt="Calculadora" height="400px" width="350px">
+<img src="Calculadora2.png" alt="Calculadora" height="400px" >
