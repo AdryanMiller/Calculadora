@@ -5,3 +5,7 @@ Sempre atualizando o projeto para que o codigo fica mais sematinco e bonito de s
 <br>
 <p>Primeira Vesão do Projeto</p>
 <img src="imagem_2023-06-01_134317698.png" alt="Calculadora" height="400px" width="350px">
+<br>
+<br>
+<p>Segunda Vesão do Projeto</p>
+<img src="" alt="Calculadora" height="400px" width="350px">
